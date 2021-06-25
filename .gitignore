@@ -1,0 +1,5 @@
+# Project exclude paths
+/.gradle/
+/build/
+/Stopwatch with Productivity Timer/task/build/
+/Stopwatch with Productivity Timer/task/build/intermediates/javac/debug/classes/

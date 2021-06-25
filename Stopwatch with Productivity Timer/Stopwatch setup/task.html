@@ -1,0 +1,58 @@
+<h2 style="text-align: center;">About</h2>
+
+<p>All of us sometimes want to study or work, but then something mysterious happens: first, we get distracted by a message from a friend, then we decide to briefly check our social networks, where we bump into some breaking news. Three hours later we find ourselves reading an article about the fall of the Roman Empire. It might be hard to finally stop procrastinating and spend time on really important things, and this is where time management comes in handy. One of the most famous technique of planning the time is Pomodoro.</p>
+
+<p>Pomodoro consists of six steps:</p>
+
+<ol>
+	<li>Choose the task.</li>
+	<li>Set the pomodoro timer (typically for 25 minutes).</li>
+	<li>Work on the task.</li>
+	<li>Stop working when the timer goes off and put a checkmark on a piece of paper.</li>
+	<li>If you have fewer than four checkmarks, take a short break (3–5 minutes), then go to step 2.</li>
+	<li>After four pomodoros (that is, checkmarks), take a longer break (15–30 minutes), reset your checkmark count to zero, then go back to step 1.</li>
+</ol>
+
+<p>Quite straightforward and helpful, isn’t it? At the end of this project, you will be able to implement an Android mobile application with a Pomodoro timer.</p>
+
+<p>To save time and simplify the testing process, the app will be implemented on seconds instead of minutes.</p>
+
+<p>In this stage, you should create and run a simple application with Android UI components (Views).</p>
+
+<h2 style="text-align: center;">Android Features</h2>
+
+<p>Firstly, you can view these Android-specific topics.</p>
+
+<p><strong>Android Studio</strong> (<a target="_blank" href="https://developer.android.com/studio/intro" rel="noopener noreferrer nofollow">https://developer.android.com/studio/intro</a>) is our main IDE for Android developing. This link takes you to a short introduction to functions and shortcuts; if you have already used Intellij idea, many features will be familiar to you. The main difference is launching an application. You may find information about it in the Instruction at the end of the document.</p>
+
+<p><strong>Android API </strong>(<a target="_blank" href="http://socialcompare.com/en/comparison/android-versions-comparison" rel="noopener noreferrer nofollow">http://socialcompare.com/en/comparison/android-versions-comparison</a>): as all frameworks and OS’s, Android has versions. Versions of APIs relate to features added (for instance, in 2.3.3 NFC support was added): the higher the version, the more features it has. The choice of the version is really important because some components in both UI and the code might not be supported in older versions. This link shows a table of Android versions and descriptions of features added in this version.</p>
+
+<p><strong>Android SDK</strong> (<a target="_blank" href="https://www.androidauthority.com/android-sdk-tutorial-beginners-634376/" rel="noopener noreferrer nofollow">https://www.androidauthority.com/android-sdk-tutorial-beginners-634376/</a>): SDK (Software Development Kit) is pretty similar to JDK, but tailored for Android needs. JDK has a compiler -  SDK has build tools, JDK has a debugger - SDK has the Android Debug Bridge (ADB). However, we may run a Kotlin or Java app through the console, while for Android development we have to use emulators which are provided by SDK. The given link describes the components of SDK.</p>
+
+<p><strong>View, Layout, XML</strong> (<a target="_blank" href="https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-1-get-started/lesson-1-build-your-first-app/1-2-c-layouts-and-resources-for-the-ui/1-2-c-layouts-and-resources-for-the-ui.html" rel="noopener noreferrer nofollow">https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-1-get-started/lesson-1-build-your-first-app/1-2-c-layouts-and-resources-for-the-ui/1-2-c-layouts-and-resources-for-the-ui.html</a>): in Swing (or in any another UI framework), we have UI components like JCheckBox, JSlider etc. In Android development those are called Views. If you want to build beautiful and user-friendly UIs, you should know about material design (<a target="_blank" href="https://developer.android.com/design" rel="noopener noreferrer nofollow">https://developer.android.com/design</a>) and representation of this approach via Layouts. This link describes Layouts as components for arranging Views on the screen and explains how to declare Views in XML, set up attributes and use them in the code.</p>
+
+<h2 style="text-align: center;">Description</h2>
+
+<p>In this stage, you should create two buttons and one label.</p>
+
+<p>To display, start and reset the timer, we need several components (Views) on the screen of the app. You should set up the environment (Android Studio and Virtual Device\Real Device), create a project with an empty activity, and put the following on the screen of this activity:</p>
+
+<ol>
+	<li>A button with attributes: text: <code class="java">Start</code>, id: <code class="java">startButton</code>.</li>
+	<li>A button with attributes: text: <code class="java">Reset</code>, id: <code class="java">resetButton</code>.</li>
+	<li>A TextView with attributes: id: <code class="java">textView</code>.</li>
+</ol>
+
+<p>All these Views should be places inside <code class="java">MainActivity</code> class with layout named <code class="java">activity_main</code>.  These class and layout already exist in your initial template you can start with.</p>
+
+<p>Remember to set id's to these components because then we can test them!</p>
+
+<h2 style="text-align: center;">Results</h2>
+
+<p>You can see the result of your application in the picture below.</p>
+
+<p style="text-align: center;"><img alt="" height="324" src="https://lh5.googleusercontent.com/GOOWS0BE5-Oj0mLpHbloqDRj4vrQNgQUrbj_NV9wJF682DmZUQOtVUxluS4GaKCow2SG6rjtqcASKAmj0N0wVMCVPQWU35oItUHy3MJLQ3EUcA1hPmiTgYvEKL-4eo3XxiYmDoQ3" width="602"></p>
+
+<p> You can set attributes of a View in the Design mode, like in the picture below:</p>
+
+<p style="text-align: center;"><img alt="" height="323" src="https://lh6.googleusercontent.com/ZhbsWKqo8f_ZJDsW6Cw91UhMupBUG7QIAlgEf3cKvKGu_Jjx3E0OFkw-aNSZ4PAwnIcfzpJCPN5Ccemgj4NS5oASWbS1k-Ou4XLRevrKYoMaEVvEFiRWBByJjZ2A1AdNsOCSbMax" width="602"></p>
